@@ -12,7 +12,7 @@ int main() {
     float length = 250.0f;
     float angle = PI / 4; 
     float aVelocity = 0.0f;
-    float aAcceleration = 0.0f;
+    float aAcceleration = 0.1f;
     float gravity = 1.5f; 
 
     while (!WindowShouldClose()) {
