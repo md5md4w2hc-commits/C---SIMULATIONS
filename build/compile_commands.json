@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/build",
+  "command": "/usr/bin/clang++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/System/Library/Frameworks  -o CMakeFiles/Simulation.dir/main.cpp.o -c \"/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/main.cpp\"",
+  "file": "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/main.cpp",
+  "output": "CMakeFiles/Simulation.dir/main.cpp.o"
+}
+]
