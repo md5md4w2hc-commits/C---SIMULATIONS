@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(raylib CONFIG REQUIRED)
 
-add_executable(Simulation main.cpp)
+add_executable(Simulation Pendulum.cpp)
 target_link_libraries(Simulation PRIVATE raylib)

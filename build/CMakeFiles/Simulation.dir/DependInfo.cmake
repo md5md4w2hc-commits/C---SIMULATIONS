@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/main.cpp" "CMakeFiles/Simulation.dir/main.cpp.o" "gcc" "CMakeFiles/Simulation.dir/main.cpp.o.d"
+  "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Pendulum.cpp" "CMakeFiles/Simulation.dir/Pendulum.cpp.o" "gcc" "CMakeFiles/Simulation.dir/Pendulum.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

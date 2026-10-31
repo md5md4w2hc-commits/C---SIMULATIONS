@@ -129,29 +129,29 @@ Simulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
 .PHONY : Simulation/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+Pendulum.o: Pendulum.cpp.o
+.PHONY : Pendulum.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/main.cpp.o
-.PHONY : main.cpp.o
+Pendulum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.o
+.PHONY : Pendulum.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Pendulum.i: Pendulum.cpp.i
+.PHONY : Pendulum.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/main.cpp.i
-.PHONY : main.cpp.i
+Pendulum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.i
+.PHONY : Pendulum.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Pendulum.s: Pendulum.cpp.s
+.PHONY : Pendulum.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/main.cpp.s
-.PHONY : main.cpp.s
+Pendulum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.s
+.PHONY : Pendulum.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Simulation"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Pendulum.o"
+	@echo "... Pendulum.i"
+	@echo "... Pendulum.s"
 .PHONY : help
 
 
