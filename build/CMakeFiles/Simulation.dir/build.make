@@ -72,28 +72,28 @@ include CMakeFiles/Simulation.dir/flags.make
 CMakeFiles/Simulation.dir/codegen:
 .PHONY : CMakeFiles/Simulation.dir/codegen
 
-CMakeFiles/Simulation.dir/Pendulum.cpp.o: CMakeFiles/Simulation.dir/flags.make
-CMakeFiles/Simulation.dir/Pendulum.cpp.o: /Users/pranjalsrivastava/Developer/C++\ SIMULATIONS/Pendulum.cpp
-CMakeFiles/Simulation.dir/Pendulum.cpp.o: CMakeFiles/Simulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simulation.dir/Pendulum.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simulation.dir/Pendulum.cpp.o -MF CMakeFiles/Simulation.dir/Pendulum.cpp.o.d -o CMakeFiles/Simulation.dir/Pendulum.cpp.o -c "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Pendulum.cpp"
+CMakeFiles/Simulation.dir/Circular_Motion.cpp.o: CMakeFiles/Simulation.dir/flags.make
+CMakeFiles/Simulation.dir/Circular_Motion.cpp.o: /Users/pranjalsrivastava/Developer/C++\ SIMULATIONS/Circular_Motion.cpp
+CMakeFiles/Simulation.dir/Circular_Motion.cpp.o: CMakeFiles/Simulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simulation.dir/Circular_Motion.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simulation.dir/Circular_Motion.cpp.o -MF CMakeFiles/Simulation.dir/Circular_Motion.cpp.o.d -o CMakeFiles/Simulation.dir/Circular_Motion.cpp.o -c "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Circular_Motion.cpp"
 
-CMakeFiles/Simulation.dir/Pendulum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Simulation.dir/Pendulum.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Pendulum.cpp" > CMakeFiles/Simulation.dir/Pendulum.cpp.i
+CMakeFiles/Simulation.dir/Circular_Motion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Simulation.dir/Circular_Motion.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Circular_Motion.cpp" > CMakeFiles/Simulation.dir/Circular_Motion.cpp.i
 
-CMakeFiles/Simulation.dir/Pendulum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Simulation.dir/Pendulum.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Pendulum.cpp" -o CMakeFiles/Simulation.dir/Pendulum.cpp.s
+CMakeFiles/Simulation.dir/Circular_Motion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Simulation.dir/Circular_Motion.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pranjalsrivastava/Developer/C++ SIMULATIONS/Circular_Motion.cpp" -o CMakeFiles/Simulation.dir/Circular_Motion.cpp.s
 
 # Object files for target Simulation
 Simulation_OBJECTS = \
-"CMakeFiles/Simulation.dir/Pendulum.cpp.o"
+"CMakeFiles/Simulation.dir/Circular_Motion.cpp.o"
 
 # External object files for target Simulation
 Simulation_EXTERNAL_OBJECTS =
 
-Simulation: CMakeFiles/Simulation.dir/Pendulum.cpp.o
+Simulation: CMakeFiles/Simulation.dir/Circular_Motion.cpp.o
 Simulation: CMakeFiles/Simulation.dir/build.make
 Simulation: /opt/homebrew/lib/libraylib.6.2.0.dylib
 Simulation: CMakeFiles/Simulation.dir/link.txt

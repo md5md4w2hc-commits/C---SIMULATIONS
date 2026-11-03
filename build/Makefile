@@ -129,29 +129,29 @@ Simulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
 .PHONY : Simulation/fast
 
-Pendulum.o: Pendulum.cpp.o
-.PHONY : Pendulum.o
+Circular_Motion.o: Circular_Motion.cpp.o
+.PHONY : Circular_Motion.o
 
 # target to build an object file
-Pendulum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.o
-.PHONY : Pendulum.cpp.o
+Circular_Motion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Circular_Motion.cpp.o
+.PHONY : Circular_Motion.cpp.o
 
-Pendulum.i: Pendulum.cpp.i
-.PHONY : Pendulum.i
+Circular_Motion.i: Circular_Motion.cpp.i
+.PHONY : Circular_Motion.i
 
 # target to preprocess a source file
-Pendulum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.i
-.PHONY : Pendulum.cpp.i
+Circular_Motion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Circular_Motion.cpp.i
+.PHONY : Circular_Motion.cpp.i
 
-Pendulum.s: Pendulum.cpp.s
-.PHONY : Pendulum.s
+Circular_Motion.s: Circular_Motion.cpp.s
+.PHONY : Circular_Motion.s
 
 # target to generate assembly for a file
-Pendulum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Pendulum.cpp.s
-.PHONY : Pendulum.cpp.s
+Circular_Motion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/Circular_Motion.cpp.s
+.PHONY : Circular_Motion.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Simulation"
-	@echo "... Pendulum.o"
-	@echo "... Pendulum.i"
-	@echo "... Pendulum.s"
+	@echo "... Circular_Motion.o"
+	@echo "... Circular_Motion.i"
+	@echo "... Circular_Motion.s"
 .PHONY : help
 
 
